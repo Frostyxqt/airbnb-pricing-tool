@@ -86,7 +86,7 @@ if submitted:
 ---
 
 ## 🚀 Run It
-Install Streamlit if you haven’t:
+# Install Streamlit if you haven't:
 
 ```bash
 pip install streamlit

@@ -1,8 +1,6 @@
-# pricing_tool.py
 import streamlit as st
 import pandas as pd
 import numpy as np
-from datetime import datetime
 
 st.set_page_config(page_title="Vacation Rental Pricing Tool", layout="centered")
 
@@ -82,11 +80,3 @@ if submitted:
     st.markdown("---")
     st.subheader("📊 Market Snapshot (Mock Data)")
     st.bar_chart(mock_market["price"])
-
----
-
-## 🚀 Run It
-# Install Streamlit if you haven't:
-
-```bash
-pip install streamlit
